@@ -75,8 +75,8 @@ const model = new Model();
 
 /* Task 1 - Part 2. Replace these three instances of the example Class Resource with instances
    of your own class */
-model.add(new Person("Tim", 25, yes, 08.10.1986));
-model.add(new Person("Lisa", 22, no, 10.09.1987));
-model.add(new Person("Max", 23, yes, 14.07.1985));
-model.add(new Person("Maria", 21, no, 5.8.1990));
+model.add(new Person("Tim", 25, true, new Date(1986,10,8)));
+model.add(new Person("Lisa", 22, false, new Date(1987, 9, 13)));
+model.add(new Person("Max", 23, true, new Date(1990, 5, 16)));
+model.add(new Person("Maria", 21, false, new Date(1985, 4, 2)));
 module.exports = model;
